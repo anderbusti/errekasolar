@@ -1,0 +1,277 @@
+.menu {
+    display: block;
+    position: relative;
+    height: 76px;
+    width: 120px;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .menu.nosotros {
+    border-top: #ffc000 0.3em solid;
+  }
+  
+  .menu.historia {
+    border-top: #b81800 0.3em solid;
+  }
+  
+  .menu.productos {
+    border-top: #00a53c 0.3em solid;
+  }
+  
+  .menu.contacto {
+    border-top: #9600b4 0.3em solid;
+    border-right: solid 1px black;
+  }
+
+  .menu.redes {
+    border-top: blue 0.3em solid;
+    border-right: solid 1px black;
+  }
+  
+  .menu > span {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    transition: 0.5s ease-in-out;
+    
+  }
+  
+  .menu:after, .menu > span > span {
+    display: block;
+    text-align: center;
+    border-radius: 0em;
+    padding: 2em 0 1.5em;
+    border: solid 1px black;
+  }
+  
+  .menu:after {
+    content: attr(data-title);
+    width: 100%;
+    background: white;
+    color: black; 
+  }
+  
+  .menu > span > span {
+    width: 120px;
+    color: #fff;
+  }
+  
+  .menu.nosotros > span > span {
+    background: #ffc000;
+  }
+  
+  .menu.productos > span > span {
+    background: #00a53c;
+  }
+  
+  .menu.historia > span > span {
+    background: #b81800;
+  }
+  
+  .menu.contacto > span > span {
+      background: #9600b4;
+  }
+
+  .menu.redes > span > span {
+    background: blue;
+}
+ 
+  .menu:hover > span {
+      height: 100%; 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    display: inline;
+    float: left;
+    text-decoration: none;
+    font-family: sans;
+  }
+
+  /* INCIO */
+  .incio{
+    padding-top: 11em;
+    background: url(../Imagenes/logoERREKASOLAR.png) no-repeat;
+    /* background-color: aqua; */
+    background-position: center;
+    height: 8em;
+}
+
+  /* PAGINA */
+
+.cuerpo{
+	padding-left:7%;
+	padding-right:7%;
+	font-family:Arial;
+}
+
+h1{
+	text-align:center;
+	font-family:Times;
+	font-size: 2.5em;
+}
+
+h4{
+  text-align:center;
+}
+
+/* header {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  } */
+
+/* TEXTO PAGINA */
+
+.menu_ori{
+  margin-left: 32%
+}
+
+.texto{
+  margin-top:7em;
+  margin-left:18%;
+}
+
+.texto p{
+    width: 45%;
+    display: inline-block;
+}
+.texto .imagen{
+    display: inline-block;
+}
+.texto img{
+    height: 150px;
+}
+
+.product{
+  margin-left: 7%;
+}
+
+/*FORMULARIO*/
+.texto2 .formulario{
+  margin-right: 10em;
+  /* width:40%; */
+  display: inline-block;
+  margin-left: 17em;
+  /* margin-left: 25%; */
+  margin-bottom: 1em;
+}
+
+.form_dir{
+  text-align: inherit;
+  position: relative;
+  top: -10em;
+  display: inline-block;
+}
+
+.form_dir img{
+  height: 400px;
+  width: 400px;
+}
+
+/* PIE DE PAGINA */
+
+.info{
+    background-color: #00AAE4;
+    height: 11em;
+    width: 100%;
+}
+
+.insta{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.face{
+    display: inline;
+    width: 30px;
+    height: 40px;
+    margin-top: 5px;
+}
+.correo{
+    display: inline;
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.redes{
+    float: left;
+}
+
+.direccion{
+    float: right;
+    position: relative;
+    display: block;
+    text-align: right;
+}
+
+
+
+
+
+
+
+body{
+  background-color: #FACACA;
+  text-align: justify;
+}
+
+h2{
+  margin-left: -11em;
+  text-align: center;
+}
+
+.product p{
+  position: relative;
+  top: -6em;
+  display: inline-block;
+}
+
+.datos{
+  
+  margin-left: -6em;
+  text-align: center;
+}
+
+.alinear p{
+  position: relative;
+  top: -3.5em;
+  display: inline-block;
+}
+
+.alinear p:nth-child(3){
+  position: relative;
+  top: -4em;
+  display: inline-block;
+}
+
+
+.texto2{
+  /* margin-top:7em; */
+  margin-left:18%;
+}
+
+.texto2 p{
+    width: 45%;
+    display: inline-block;
+}
+.texto2 .imagen{
+    display: inline-block;
+}
+.texto2 img{
+    height: 150px;
+}
